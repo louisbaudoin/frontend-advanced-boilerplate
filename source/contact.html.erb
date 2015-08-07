@@ -1,0 +1,26 @@
+  <h1>yO</h1>
+
+<h2>Here are my posts</h2>
+
+ <% a =1%>
+<%10.times do%>
+  <h2><%= "Hello for the #{a} bros!!!!!"%></h2>
+  <% a +=1 %>
+<%end%>
+
+
+<!-- pricing.html.erb -->
+<div class="container">
+  <div class="row">
+    <% data.products.each do |product| %>
+      <div class="col-md-6 text-center">
+        <%= image_tag product.image, class: "img-circle" %>
+        <h2><%= product.name %></h2>
+        <p><%= product.comm %></p>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+<div class="text-center"><button type="submit" class="btn btn-default">Submit</button></div>

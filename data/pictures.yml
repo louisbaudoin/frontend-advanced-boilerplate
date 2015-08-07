@@ -1,0 +1,9 @@
+- name: Lima Peru
+  image: peru.jpg
+- name: Kyrgyze land
+  image: LAND.JPG
+- name: Masque
+  image: Masque.jpg
+- name: Volcan du salar
+  image: salar.jpg
+
